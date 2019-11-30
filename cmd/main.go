@@ -1,11 +1,11 @@
 package main
 
 import (
-  "fmt"
-  "servers"
+	"fmt"
+	"github.com/gojou/serverpractice/pkg/servers"
 )
 
 func main() {
-  name:=servers.User.get().Name
-  fmt.Println("Hello world!")
+	name := servers.User.get().Name
+	fmt.Println("Hello world!")
 }
