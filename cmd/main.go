@@ -2,10 +2,13 @@ package main
 
 import (
 	"fmt"
-	"serverpractice/pkg/servers"
+	"serverpractice/pkg/entities/scout"
 )
 
 func main() {
-	name := servers.User.get().Name
-	fmt.Println("Hello world!")
+	scout := new(scout.Scout)
+	scout.ID = "mpoling"
+	scout.Name = "Mark Poling"
+
+	fmt.Println("Hello" + scout.Name)
 }
