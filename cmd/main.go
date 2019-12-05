@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/gojou/serverpractice/pkg/servers"
+	"serverpractice/pkg/servers"
 )
 
 func main() {
